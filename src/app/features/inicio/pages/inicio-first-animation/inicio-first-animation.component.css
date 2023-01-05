@@ -1,0 +1,39 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    overflow: hidden;
+}
+.img-flutuante{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sliding-background {
+    background: url("../../../../../assets/stars.svg") repeat repeat;
+    height: 5076px;
+    width: 5076px;
+
+    animation: slide 10s linear infinite;
+}
+.fade-in{-webkit-animation:fade-in 3.0s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 3.0s cubic-bezier(.39,.575,.565,1.000) both}
+.fade-out{-webkit-animation:fade-out 3s ease-out both;animation:fade-out 3s ease-out both}
+@keyframes slide{
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(0 ,-1692px, 0);
+    }
+}
+/*animação de entrada*/
+@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+/*animação de saida*/
+@-webkit-keyframes fade-out{0%{opacity:1}100%{opacity:0}}@keyframes fade-out{0%{opacity:1}100%{opacity:0}}
+

@@ -1,0 +1,21 @@
+.button-style {
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 1rem;
+    font-weight: 100;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    width: 80%;
+    margin: 5% 10%;
+    padding: 5%;
+    border: none;
+ }
+ .border-true{
+    border: solid #FFFFFF 1px;
+ }

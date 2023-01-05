@@ -1,0 +1,21 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    display: grid;
+    grid-template-rows: 10% 1fr;
+    min-height: 100vh;
+}
+.fade-in{-webkit-animation:fade-in 3.0s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 3.0s cubic-bezier(.39,.575,.565,1.000) both}
+@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+
+.fade-out{-webkit-animation:fade-out 3s ease-out both;animation:fade-out 3s ease-out both}
+@-webkit-keyframes fade-out{0%{opacity:1}100%{opacity:0}}@keyframes fade-out{0%{opacity:1}100%{opacity:0}}
+
