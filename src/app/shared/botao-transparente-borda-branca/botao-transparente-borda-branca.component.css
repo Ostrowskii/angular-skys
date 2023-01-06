@@ -3,19 +3,20 @@
     -moz-border-radius: 50px;
     border-radius: 50px;
     color: #FFFFFF;
-    font-family: Arial;
-    font-size: 1rem;
-    font-weight: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
     text-align: center;
     background-color: transparent;
     width: 80%;
-    margin: 5% 10%;
-    padding: 5%;
+    height: 74px;
+    margin: 0% 10% 2%;
     border: none;
  }
  .border-true{
     border: solid #FFFFFF 1px;
+    margin: 5% 10% 2%;
  }
