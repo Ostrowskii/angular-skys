@@ -1,0 +1,31 @@
+p{
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 2vw;
+}
+
+.alinhamento-horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:  2vh;
+}
+.seta{
+    margin-right: 5vw;
+}
+.barra{
+    width: 23px;
+    height: 0px;
+    margin: 0 0.5vw;
+}
+.barra-branca{
+    border: 1px solid#FFFFFF;
+}
+.barra-roxa{
+    border: 1px solid #7631F0;
+}
