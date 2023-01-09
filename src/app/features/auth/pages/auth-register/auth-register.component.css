@@ -1,0 +1,77 @@
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Acumin Pro Wide';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.3458px;
+    line-height: 120%;
+}
+p{
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0.5rem 10vw 1rem;
+}
+span{
+    color: #A673FF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+.centralizar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.margem{
+    margin: 4vh 10vw;
+}
+
+.flexbox-lado-a-lado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flexbox-lado-a-lado img {
+    margin: 0.5rem;
+}
+.content{
+    height: 55vh;
+}
+.botoes{
+    height: 20vh;
+}
+/* input css */
+
+.form-input {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    margin: 1rem auto;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    background-color: #7631F0;
+    border: none;
+    width: 75VW;
+    height: 55px;
+    display: block;
+  }
+
+  .form-input::placeholder{
+    color: #A673FF;
+    font-size: 12px;
+  }

@@ -1,0 +1,35 @@
+<div class="main-container fade-in">
+    <div class="logo">
+        <img src="../../../../../assets/Logo.svg" alt="logo skys">
+    </div>
+
+    <div class="centralizar margem content">
+        <h1 >Welcome to Sky's the Limit</h1>
+        <p>Create your account and start building a thriving business.</p>
+
+        <form [formGroup]="form">
+          <input formControlName="firstName" class="form-input centralizar" placeholder="Fist Name*" type="text">
+          <input formControlName="lastName" class="form-input centralizar" placeholder="Last Name*" type="text">
+          <input formControlName="email" class="form-input centralizar" placeholder="Email Address*" type="email" >
+          <input formControlName="password" class="form-input centralizar" placeholder="Password*" type="password" >
+        </form>
+
+        <span>By continuing, you agree to Sky's the Limit's <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>.</span>
+    </div>
+
+    <div class="botoes" >
+        <app-botao-transparente-borda-branca (click)="acessarPagina()" [isComBorda]="true"> Continue </app-botao-transparente-borda-branca>
+        <p class="centralizar">or</p>
+        <div class="flexbox-lado-a-lado">
+            <a href="#">
+              <img src="../../../../../assets/Google.png" alt="Icone do Google">
+            </a>
+            <a href="#">
+              <img src="../../../../../assets/Apple.png" alt="Icone da Apple">
+            </a>
+            <a href="#">
+              <img src="../../../../../assets/Facebook WC.png" alt="Icone do Facebook">
+            </a>
+        </div>
+    </div>
+</div>
