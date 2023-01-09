@@ -1,0 +1,8 @@
+<div class="containter"  >
+    <div *ngFor="let item of listaDeOpcoes" >
+      <button class="botao-padrao" (click)="selecionarItem(item)" [ngClass]="{'botao-selecionado': listaDeOpcoesSelecionadas.includes(item)}"> {{item}} </button> <br>
+    </div>
+    <div class="gradiente">
+
+    </div>
+</div>

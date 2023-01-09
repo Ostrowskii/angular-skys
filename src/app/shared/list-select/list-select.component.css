@@ -1,0 +1,38 @@
+.containter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    max-height: 50vh;
+    overflow: auto;
+}
+
+.botao-padrao{
+    background-color: #7631F0;
+}
+.botao-selecionado{
+    background-color: #4D2397;
+}
+button{
+    align-self: center;
+    color: white;
+    font-weight: 600;
+    font-size: 13.1062px;
+    width: 40vw;
+    height: 74px;
+    margin: 1vh 3vw;
+    border-radius: 37px;
+    border: none;
+    z-index: 1;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+#style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
