@@ -1,0 +1,51 @@
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Acumin Pro Wide';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.3458px;
+    line-height: 120%;
+}
+p{
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0.5rem 10vw 1rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+}
+.container{
+    height: 90vh;
+    display: grid;
+    grid-template-rows:  15vh 60vh 1fr ;
+}
+.area-botao{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10%;
+}
+.botao-next{
+    width: 100%;
+    /* margin: 4vh; */
+}
+.gradiente{
+    position: absolute;
+    width: 100%;
+    height: 106px;
+    left: 0.05px;
+    top: 63vh;
+    /* bottom: 0; */
+    background: linear-gradient(180deg, rgba(97, 41, 195, 0) 0%, #6129C3 100%);
+}
+.relative{
+    display: relative;
+}

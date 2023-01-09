@@ -1,0 +1,22 @@
+<div class="logo">
+    <img src="../../../../../assets/Logo.svg" alt="logo skys">
+</div>
+<div class="container">
+    <div>
+        <app-auth-barra-pagina></app-auth-barra-pagina>
+        <h1 >What would you like to learn <br> about business?</h1>
+        <p>Feel free to select multiple</p>
+    </div>
+    <div class="relative">
+        <app-list-select></app-list-select>
+        <div class="gradiente">
+
+        </div>
+    </div>
+
+    <div class="area-botao">
+
+          <app-botao-transparente-borda-branca class="botao-next" (click)="acessarPagina()" [isComBorda]="true"> Next </app-botao-transparente-borda-branca>
+
+    </div>
+</div>
